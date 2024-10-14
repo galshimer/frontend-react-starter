@@ -1,6 +1,25 @@
 // section{
 //     background-color: aqua;
 // }
+// body{
+//         // background-image: ;
+// }
+/* HomePage.module.scss */
 body{
-        // background-color: #F1F1F1;
-}
+        background-image: url('/src/assets/img/maarachHabakara.png'); /* Replace with the correct path to your image */
+        background-size: cover; /* Ensures the image covers the entire section */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        height: 100vh; /* Full viewport height */
+        width: 100vw; /* Full viewport width */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        h1, p {
+          color: white; /* Text color to stand out against the background */
+          text-align: center;
+          direction: rtl; /* Align text for Hebrew */
+        }
+      }
+      
